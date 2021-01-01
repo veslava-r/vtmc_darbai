@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="lt">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<title>3 - 6 Fono paveikslėlis</title>
+	<style>
+		.pavasaris {
+			background-image: url("pavasaris.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 100vh;
+		}
+
+		.vasara {
+			background-image: url("vasara.jpg");
+		}
+
+		.ruduo {
+			background-image: url("palitra-osen1.jpg");
+		}
+
+		.ziema {
+			background-image: url("ziema.jpg");
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+
+		<div class="form-group">
+			<label for="id_of_select">Pasirinkite kokio fono norėtumėte</label>
+			<select class="form-control" id="id_of_select">
+				<option value="0" selected disabled>--Pasirinkite--</option>
+				<option value="pavasaris">Pavasaris</option>
+				<option value="vasara">Vasara</option>
+				<option value="ruduo">Ruduo</option>
+				<option value="ziema">Žiema</option>
+			</select>
+		</div>
+		<button id="btn" class="btn btn-success">Rodyti</button>
+	</div>
+	<script src="javascript.js"></script>
+	<!--
+	<img src="pavasaris.jpg" alt="">
+	<img src="vasara.jpg" alt="">
+	<img src="palitra-osen1.jpg" alt="">
+	<img src="ziema.jpg" alt="">
+-->
+
+</body>
+
+</html>
